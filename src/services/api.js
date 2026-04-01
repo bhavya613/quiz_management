@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:9000";
+const API_URL = "http://localhost:9001";
 
 export const fetchQuizzes = () => {
   return axios.get(`${API_URL}/quiz/all`);
